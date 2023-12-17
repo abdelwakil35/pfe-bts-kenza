@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <style>
+        /* Styles for header, nav, section, and footer remain the same as before */
+
+        /* Additional styles for the homepage */
+        .featured-destination {
+            text-align: center;
+            margin: 2em 0;
+        }
+
+        /* Styles for the destinations page */
+        .destination-card {
+            border: 1px solid #ddd;
+            padding: 1em;
+            margin: 1em;
+            text-align: center;
+            background-color: white;
+        }
+
+        /* Styles for the packages page */
+        .package-card {
+            border: 1px solid #ddd;
+            padding: 1em;
+            margin: 1em;
+            text-align: center;
+            background-color: white;
+        }
+
+        /* Styles for the contact page */
+        form {
+            text-align: center;
+        }
+
+        form input,
+        form textarea,
+        form button {
+            margin: 1em;
+            padding: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Travel Agency</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Packages</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <!-- Homepage -->
+        <h2>Welcome to Our Travel Agency</h2>
+        <p>Explore the world with our exciting travel packages. From exotic beaches to adventurous mountains, we've got it all!</p>
+
+        <div class="featured-destination">
+            <h3>Featured Destination</h3>
+            <p>Discover the beauty of [Featured Destination] with our exclusive package. Book now!</p>
+        </div>
+    </section>
+
+    <section>
+        <!-- Destinations Page -->
+        <h2>Popular Destinations</h2>
+        <div class="destination-card">
+            <h3>Beach Paradise</h3>
+            <p>Relax on the white sandy beaches and enjoy the crystal-clear waters.</p>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="destination-card">
+            <h3>Mountain Adventure</h3>
+            <p>Embark on a thrilling journey through breathtaking mountain landscapes.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+
+    <section>
+        <!-- Packages Page -->
+        <h2>Travel Packages</h2>
+        <div class="package-card">
+            <h3>Weekend Getaway</h3>
+            <p>Escape for a short break and experience the charm of [Destination].</p>
+            <a href="#">Book Now</a>
+        </div>
+
+        <div class="package-card">
+            <h3>Cultural Exploration</h3>
+            <p>Immerse yourself in the rich culture and history of [Destination].</p>
+            <a href="#">Book Now</a>
+        </div>
+    </section>
+
+    <section>
+        <!-- Contact Page -->
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Travel Agency. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
